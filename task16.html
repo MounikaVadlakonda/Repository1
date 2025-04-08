@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body{
+        background-color:black;
+    }
+         form{
+            border:1px solid black;
+            padding:100px;
+            margin:100px;
+            width:300px;
+            border-radius:10px;
+            background-color:black;
+            color:white;
+            background-image:url("moon.jpg");
+            background-size:cover;
+            background-position:center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+         }
+         button{
+            position:relative;
+            left:90px;
+            width:120px;
+         }
+         a:hover{
+            color:red;
+         }
+    </style>
+    <script>
+        function registered(){
+            alert("Registered Succesfully");
+        }
+        function focusevent(element){
+            element.style.backgroundColor="lightgreen"
+            element.style.color="purple"
+        }
+        function blurevent(element){
+            element.style.backgroundColor="lightblue"
+            element.style.color="purple"
+        }
+        focusevent();
+        blurevent();
+    </script>
+</head>
+<body>
+    <form onsubmit="registered()" action="login.html">
+        <h1> <center><u>login</u></center></h1>
+        <br>
+        <label> Username :</label required>
+        <input type="text" onfocus="focusevent(this)" onblur="blurevent(this)" required/>
+    </br>
+    <br>
+        <label> Password :</label required>
+        <input type="password" onfocus="focusevent(this)" onblur="blurevent(this)" required/ >
+    </br>
+    <br>
+        <button type="submit"> Login </button>
+</br>
+<p> Create account 
+<a href="signup.html"> SignUp </a>
+<a href="forget.html"> Forget </a></p>
+    </form>
+</body>
+</html>
