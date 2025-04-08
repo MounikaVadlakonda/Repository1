@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border:2px solid black;
+            display:inline-block;
+            padding:20px;
+            margin:10px;
+        }
+        input{
+            margin:10px;
+        }
+        .red{
+            border:2px solid black;
+            border-radius:20px;
+            width:20px;
+            height:20px;
+            background-color: red;
+        }
+        .yellow{
+            border:2px solid black;
+            border-radius:20px;
+            width:20px;
+            height:20px;
+            position:relative;
+            left:50px;
+            bottom:25px;
+            background-color: yellow;
+        }
+        .orange{
+            border:2px solid black;
+            border-radius:20px;
+            width:20px;
+            height:20px;
+            position:relative;
+            left:100px;
+            bottom:49px;
+            background-color: orange;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form class="form">
+        <center><h1>Login Page </h1></center>
+        <label> User name </label>
+        <input type="text"/>
+    </br>
+    <label> Passwrod </label>
+    <input type="password"/>
+</br>
+    <label> Phone number </label>
+    <input type="number"/>
+</br>
+    <div class="red" onclick="red()">
+        <script>
+            function red(){
+                document.getElementsByClassName("form")[0].style.backgroundColor="red";
+            }
+        </script>
+        </div>
+        <div class="yellow" onclick="yellow()" >
+            <script>
+                function yellow(){
+                    document.getElementsByClassName("form")[0].style.backgroundColor="yellow";
+                }
+            </script>
+        </div>
+        <div class="orange" onclick="orange()">
+            <script>
+                function orange(){
+                    document.getElementsByClassName("form")[0].style.backgroundColor="orange";
+                }
+            </script>
+        </div>
+    </div>
+    
+</body>
+</html>
