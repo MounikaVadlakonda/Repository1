@@ -1,0 +1,178 @@
+ 
+ body{
+    background-color:lightgoldenrodyellow;
+ }
+ /* main */
+ .main{
+    width:50px;
+ }
+ .main #id1{
+      width:80px;
+      position:relative;
+      top:20px;
+      left:40px;
+ }
+ .main #id2{
+      position:relative;
+      left:1000px;
+      bottom:100px;
+ }
+ .logo{
+    width:300px;
+ }
+ .logo h1{
+    position:relative;
+    left:250px;
+    bottom:240px;
+    font-size:80px;
+ }
+ .logo img{
+    position:relative;
+    left:450px;
+    bottom:380px;
+ }
+ .logo h2{
+    position:relative;
+    left:680px;
+    bottom:570px;
+    font-size:80px;
+ }
+ .logo h3{
+    position:relative;
+    left:480px;
+    bottom:750px;
+ }
+ .logo h4{
+    position:relative;
+    left:440px;
+    bottom:650px;
+    font-size:10px;
+ }
+   /*header*/
+   .header{
+    position:relative;
+    width:1100px;
+    font-family: calibri;
+   }
+.header p{
+   width:190px;
+   height: fit-content;
+   font-size:14px;
+   float:left;
+   font-family:calibri;
+}
+.header img{
+   width:80px;
+   height:80px;
+   float:left;
+}
+/*mid-content*/
+ .midcontent img{
+   float:left;
+}
+.midcontent h1{
+   font-size:40px;
+   width:550px;
+}
+.midcontent p{
+   
+   font-size:14px;
+   font-family:calibri;
+   
+}
+.midcontent{
+ width: 540px;
+ height: fit-content;
+}
+/* midleft */
+.midleft h1{
+ position:relative;
+ left:50px;
+ bottom:30px;
+ font-size:45px;
+}
+.midleft h2{
+ position:relative;
+ left:100px;
+ bottom:80px;
+ font-size:45px;
+}
+.midleft img{
+ float:right;
+ position:relative;
+ bottom:380px;
+ right:10px;
+}
+.midleft{
+ width:550px;
+ position:relative;
+ left:620px;
+ bottom:420px;
+}
+.midleft #id1{
+ position:relative;
+ width:310px;
+ right:30px;
+ bottom:90px;
+}
+.midleft #id2{
+ position:relative;
+ width:fit-content;
+ bottom:100px;
+ right:30px;
+}
+/* footer */
+.footer{
+ position:relative;
+ bottom:430px;
+}
+.footer h3{
+    font-size:20px;
+    width:200px;
+    position:relative;
+    bottom:20px;
+}
+.footer h1{
+ position:relative;
+ font-size:20px;
+ bottom:32px;
+}
+.footer{
+ width:180px;
+ height:fit-content;
+}
+.footer p{
+ position:relative;
+ bottom:48px;
+}
+/* midfooter */
+.midfooter{
+ width:750px;
+ position:relative;
+ left:210px;
+ bottom:980px;
+}
+.midfooter img{
+ float:left;
+}
+/* right */
+.right{
+ width:200px;
+ height: fit-content;
+ position:relative;
+ float:right;
+ bottom:1530px;
+}
+section{
+ position:relative;
+ bottom:20px;
+}
+.newspaper{
+ position:relative;
+ bottom:650px;
+}
+a{
+    position:relative;
+    bottom:1100px;
+    left:1100px;
+}
