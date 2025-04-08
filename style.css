@@ -1,0 +1,147 @@
+.head ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+}
+ ul li{
+    list-style: none;
+margin:20px;
+margin-left:100px;
+margin-top: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ul li a:hover{
+    color:orangered;
+}
+.head #id2{
+    float:left;
+    position:relative;
+    top:10px;
+    left:10px;
+}
+.head #id1{
+    margin:10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#id1:hover{
+     width:40px;
+     height:50px;
+}
+.paragraph{
+    width:400px;
+    margin-left:150px;
+    position:relative;
+    top:90px;
+}
+.paragraph .par{
+    font-size:18px;
+    font-family:sans-serif;
+    letter-spacing: 1.0px;
+}
+.paragraph .exp{
+    font-size:18px;
+}
+.paragraph h1{
+    font-size: 50px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:150px;
+    height:30px;
+    background-color: black;
+    color:white;
+    font-family: Calibri;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color:yellowgreen;
+    border:2px solid white;
+}
+.btn a{
+    text-decoration: none;
+    color:red;
+}
+.left{
+    float:left;
+    margin-left: 850px;
+    position:relative;
+    bottom:180px;
+}
+.left .down{
+    background-color: darkgray;
+    position:relative;
+    bottom:18px;
+    width:149px;
+    height:110px;
+}
+.left .nike{
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.left .men{
+    position:relative;
+    bottom:8px;
+}
+.left .cost{
+    position:relative;
+    bottom: 10px;
+}
+.left .down2{
+    background-color: darkgray;
+    position:relative;
+    bottom:143px;
+    left:155px;
+    width:148px;
+    height:110px;
+}
+.left .nike2{
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.left .men2{
+    position:relative;
+    bottom:8px;
+}
+.left .cost2{
+    position:relative;
+    bottom: 10px;
+}
+.left .down3{
+    background-color: darkgray;
+    position:relative;
+    bottom:268px;
+    left:310px;
+    width:148px;
+    height:110px;
+}
+.left .nike3{
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.left .men3{
+    position:relative;
+    bottom:8px;
+}
+.left .cost3{
+    position:relative;
+    bottom: 10px;
+}
