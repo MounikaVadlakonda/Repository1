@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script>
+            let m=0;
+            let i=2;
+         function mounika(){
+          let  n=Number(document.forms["myform"]["subject"].value);
+            let m1=Number(document.forms["myform"]["mark"].value);
+           let m2=Number(document.forms["myform"]["tm"].value);
+            m += m1;
+            console.log(m);
+            if(i<=n){
+          document.getElementById("id1").innerHTML="enter subject"+i;
+         }
+         else{
+            document.getElementById("id3").display="none";
+            p=(m/m2)*100;
+            document.getElementById("id4").innerHTML="your percentage is"+p;
+         }
+         i=i+1;
+        }
+        </script>
+    </head>
+    <body>
+        <form name="myform">
+            <h1> enter no.of subjects</h1><input type="number" name="subject"/>
+            <h1 id="id2"> enter total marks </h1><input type="number" name="mark"/>
+           <div id="id3">
+            <h1 id="id1"> enter subject1 marks</h1><input type="number" name="tm" />
+       <button type="button" onclick="mounika()">save</button>
+       </div>
+       <h1 id="id4"></h1>
+       </form>
+    </body>
+</html>
