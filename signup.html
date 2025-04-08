@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color:black;
+      }
+      form{
+        border:1px solid black;
+        border-radius:10px;
+        width:300px;
+        margin:300px;
+        padding:40px;
+        background-color:blanchedalmond;
+      }
+      h1{
+        text-align:center;
+        color:blueviolet;
+      }
+      button{
+        position:relative;
+        left:60px;
+        top:20px;
+      }
+      input{
+        border-radius:10px;
+        width:250px;
+        height:20px;
+      }
+    </style>
+    <script>
+      function keyupevent(element){
+        element.style.backgroundColor="skyblue"
+      }
+      function keydownevent(element){
+        element.style.backgroundColor="lightgreen"
+      }
+      keyupevent();
+      keydownevent();
+    </script>
+</head>
+<body>
+    <form>
+        <h1><u> Register</u> </h1>
+        <table>
+        <tr><td><label> Username :</td></tr></label>
+        <tr><td><input type="text" onkeyup="keyupevent(this)" onkeydown="keydownevent(this)" /></td></tr>
+        <tr><td><label> Password:</td></tr></label>
+        <tr><td><input type="password" onkeyup="keyupevent(this)" onkeydown="keydownevent(this)" /></td></tr>
+      <tr><td><label> Confirm password:</label></td></tr>
+      <tr><td><input type="password" onkeyup="keyupevent(this)" onkeydown="keydownevent(this)" /></td></tr>
+      <tr><td><label> email </label></td></tr>
+      <tr><td><input type="email" onkeyup="keyupevent(this)" onkeydown="keydownevent(this)" /></td></tr>
+      <tr><td><label> Phone number </label></td></tr>
+      <tr><td><input type="number" onkeyup="keyupevent(this)" onkeydown="keydownevent(this)" /></td></tr>
+      <tr><td><button> <a href="task16.html">Register Now </a> </td></tr></button>
+    </form>
+</body>
+</html>
