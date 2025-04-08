@@ -1,0 +1,56 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.left{
+    width:150px;
+}
+.left h1{
+    width:220px;
+    font-size:16px;
+}
+.left h2{
+    font-size:12px;
+}
+.left p::first-letter{
+    font-size:30px;
+    width:350;
+}
+/* midcontent */
+.midcontent{
+    width:600px;
+    position:relative;
+    left:200px;
+    bottom:700px;
+}
+.midcontent img{
+    float:left;
+    position:relative;
+    bottom:40px;
+}
+.midcontent h2{
+    font-size:20px;
+    position:relative;
+    bottom:20px;
+}
+.midcontent h3{
+    font-size:16px;
+    position:relative;
+    bottom:30px;
+}
+.midcontent p{
+    position:relative;
+    bottom:40px;
+}
+/* right */
+.right{
+   width:290px;
+   position:relative;
+   left:830px;
+   bottom:1450px;
+}
+.right img{
+    float:left;
+}
+.right h2{
+    font-size:16px;
+}
